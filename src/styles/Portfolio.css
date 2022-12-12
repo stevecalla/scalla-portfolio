@@ -1,0 +1,16 @@
+.custom-project-container {
+  height: 500px;
+}
+
+/* ------- MEDIA QUERY --------- */
+@media screen and (max-width: 1550px) {
+  .custom-project-container {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .custom-project-container {
+    height: 425px;
+  }
+}

@@ -1,0 +1,53 @@
+.menu-desktop {
+  display: auto !important;
+}
+
+.nav-link {
+  color: black!important;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.active {
+  border-radius: 5px;
+  background-color: var(--background-color);
+}
+
+.nav-mobile,
+.menu-mobile {
+  display: none;
+  /* Prevent menu for displaying under project image */
+  z-index: 1;
+}
+
+/* ------- MEDIA QUERY --------- */
+@media screen and (max-width: 768px) {
+  .menu-desktop {
+    display: none !important;
+    width: 0px;
+  }
+
+  .nav-mobile {
+    display: block;
+  }
+
+  .menu-mobile {
+    display: flex;
+    justify-content: flex-end;
+    width: 130px;
+  }
+
+  .menu-block {
+    justify-content: flex-end;
+    width: 130px;
+    background: black;
+    opacity: 1;
+  }
+
+  img {
+    height: 40px;
+    width: 40px;
+  }
+}

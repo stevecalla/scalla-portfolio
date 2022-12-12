@@ -1,0 +1,28 @@
+/* ---------- MAIN  ------------- */
+.custom-about {
+  height: 75vh;
+}
+
+/* ---------- PHOTO  ------------- */
+.photo-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.photo-container img {
+  height: 130px;
+  width: 130px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+/* ------- MEDIA QUERY --------- */
+@media screen and (max-width: 768px) {
+  .custom-text {
+    text-align: center;
+  }
+
+  .photo-container {
+    justify-content: center;
+  }
+}

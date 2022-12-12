@@ -1,0 +1,34 @@
+.custom-footer {
+  height: 10vh;
+  background: var(--black);
+  z-index: 1;
+}
+
+.fa-linkedin,
+.fa-github,
+.fa-file-lines {
+  width: 35px;
+  height: 35px;
+}
+
+.fa-file-lines {
+  width: 35px;
+  height: 35px;
+}
+
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-file-lines:hover,
+.share-icon:hover {
+  height: 40px;
+  width: 40px;
+}
+
+/* --------- SHARE ICON AND MODAL ------------ */
+.share-icon {
+  width: 30px;
+  height: 30px;
+  margin: 6px;
+  margin-top: 10px;
+  background-color: white;
+}

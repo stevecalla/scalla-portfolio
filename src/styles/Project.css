@@ -1,0 +1,51 @@
+.custom-card {
+  width: 500px !important;
+}
+
+.custom-image {
+  width: 100%;
+  height: 350px !important;
+  /* width: 490px; */
+  /* height: 130px; */
+  /* object-fit: cover; */
+  object-position: center top;
+}
+
+.custom-title {
+  font-size: 32px !important;
+  font-style: bold !important;
+}
+
+.custom-subTitle {
+  font-size: 20px !important;
+  font-style: bold !important;
+}
+
+/* Project Card Animation */
+@media(prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+  transition: all 1s;
+}
+
+.card:nth-child(2n+2) {
+  transition-delay: 300ms;
+}
+
+
+.card:nth-child(3n) {
+  transition-delay: 400ms;
+}

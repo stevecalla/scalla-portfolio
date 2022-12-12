@@ -1,0 +1,19 @@
+.custom-resume-container {
+  height: 375px;
+  overflow-y: auto;
+}
+
+.custom-resume-card {
+  width: 350px !important;
+}
+
+.custom-icon-text {
+  font-size: 12px;
+}
+
+/* ------- MEDIA QUERY --------- */
+@media screen and (max-width: 1550px) {
+  .custom-resume-container {
+    height: 275px;
+  }
+}
