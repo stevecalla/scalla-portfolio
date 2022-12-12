@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/scalla-portfolio/static/css/main.81d0b8e0.css",
+    "main.css": "/scalla-portfolio/static/css/main.30f1d548.css",
     "main.js": "/scalla-portfolio/static/js/main.e77ef6f0.js",
     "static/js/787.96f1a339.chunk.js": "/scalla-portfolio/static/js/787.96f1a339.chunk.js",
     "static/media/15_hikamp.png": "/scalla-portfolio/static/media/15_hikamp.b33da8257377ed17eb9b.png",
@@ -37,12 +37,12 @@
     "static/media/network-color.png": "/scalla-portfolio/static/media/network-color.7843e6b9b05f8fceb09c.png",
     "index.html": "/scalla-portfolio/index.html",
     "static/media/menu.svg": "/scalla-portfolio/static/media/menu.444410f528b0342b8c1a8785a9aa9dc6.svg",
-    "main.81d0b8e0.css.map": "/scalla-portfolio/static/css/main.81d0b8e0.css.map",
+    "main.30f1d548.css.map": "/scalla-portfolio/static/css/main.30f1d548.css.map",
     "main.e77ef6f0.js.map": "/scalla-portfolio/static/js/main.e77ef6f0.js.map",
     "787.96f1a339.chunk.js.map": "/scalla-portfolio/static/js/787.96f1a339.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81d0b8e0.css",
+    "static/css/main.30f1d548.css",
     "static/js/main.e77ef6f0.js"
   ]
 }
