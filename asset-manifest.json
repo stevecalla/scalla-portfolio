@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/scalla-portfolio/static/css/main.c0aecbb3.css",
-    "main.js": "/scalla-portfolio/static/js/main.876ee417.js",
+    "main.js": "/scalla-portfolio/static/js/main.2177c707.js",
     "static/js/787.96f1a339.chunk.js": "/scalla-portfolio/static/js/787.96f1a339.chunk.js",
     "static/media/15_hikamp.png": "/scalla-portfolio/static/media/15_hikamp.b33da8257377ed17eb9b.png",
     "static/media/7_ski_planner.png": "/scalla-portfolio/static/media/7_ski_planner.5407e2de4c184d8b807d.png",
@@ -37,11 +37,11 @@
     "index.html": "/scalla-portfolio/index.html",
     "static/media/menu.svg": "/scalla-portfolio/static/media/menu.444410f528b0342b8c1a8785a9aa9dc6.svg",
     "main.c0aecbb3.css.map": "/scalla-portfolio/static/css/main.c0aecbb3.css.map",
-    "main.876ee417.js.map": "/scalla-portfolio/static/js/main.876ee417.js.map",
+    "main.2177c707.js.map": "/scalla-portfolio/static/js/main.2177c707.js.map",
     "787.96f1a339.chunk.js.map": "/scalla-portfolio/static/js/787.96f1a339.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c0aecbb3.css",
-    "static/js/main.876ee417.js"
+    "static/js/main.2177c707.js"
   ]
 }
