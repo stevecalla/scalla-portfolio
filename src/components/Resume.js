@@ -21,7 +21,7 @@ function Resume() {
 
       <div className="d-flex justify-content-around align-items-center p-2 custom-footer">
         <div className="d-flex flex-column align-items-center">
-          <a href="https://drive.google.com/file/d/1DILkq90Y6jKimjH_gOscpZCJS4kzb3s4/view" target="_blank" rel="noreferrer" download>
+          <a href="https://drive.google.com/file/d/1DILkq90Y6jKimjH_gOscpZCJS4kzb3s4/view" target="_blank" rel="noreferrer">
             <p className="m-0">{file}</p>
           </a>
           <p className="m-0 text-light custom-icon-text">RESUME</p>
