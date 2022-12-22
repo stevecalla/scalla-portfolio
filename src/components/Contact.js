@@ -34,7 +34,10 @@ function Contact() {
   // If all fields are populated then enable the submit button
   useEffect(() => {
     setAreAllFieldsFilled(
-      name.trim() !== "" && cc.trim() !== "" && subject.trim() !== "" && body.trim() !== ""
+      name.trim() !== "" &&
+        cc.trim() !== "" &&
+        subject.trim() !== "" &&
+        body.trim() !== ""
     );
   }, [name, cc, subject, body]);
 
@@ -64,10 +67,18 @@ function Contact() {
   const handleBlurChange = (e) => {
     const { name, value } = e.target;
 
-    name === "name" && value.trim() === "" ? setShowNameValidation (true) : setShowNameValidation(false);
-    name === "cc" && value.trim() === "" ? setShowEmailValidation (true) : setShowEmailValidation(false);
-    name === "subject" && value.trim() === "" ? setShowSubjectValidation (true) : setShowSubjectValidation(false);
-    name === "body" && value.trim() === "" ? setShowBodyValidation (true) : setShowBodyValidation(false); 
+    name === "name" && value.trim() === ""
+      ? setShowNameValidation(true)
+      : setShowNameValidation(false);
+    name === "cc" && value.trim() === ""
+      ? setShowEmailValidation(true)
+      : setShowEmailValidation(false);
+    name === "subject" && value.trim() === ""
+      ? setShowSubjectValidation(true)
+      : setShowSubjectValidation(false);
+    name === "body" && value.trim() === ""
+      ? setShowBodyValidation(true)
+      : setShowBodyValidation(false);
   };
 
   return (
@@ -75,12 +86,30 @@ function Contact() {
       className="p-3 overflow-auto custom-about"
       onSubmit={handleFormSubmit}
     >
-      <h1 className="display-4 custom-text">Contact me</h1>
+      <h1 className="text-center display-4 custom-text">Contact me</h1>
+
+      <div className="d-flex flex-column justify-content-center">
+        <div className="d-flex justify-content-center">
+          <a href="mailto:callasteven@gmail.com">Email: </a>
+          <span>&nbsp;callasteven@gmail.com</span>
+        </div>
+        <div className="d-flex justify-content-center">
+          <a href="tel:+12019347068">Phone:</a>
+          <span>&nbsp;(201)-934-7068</span>
+        </div>
+      </div>
+      <hr></hr>
 
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <div className="form-label">
           <Form.Label>Name</Form.Label>
-          <Form.Label className={`validation-color ${showNameValidation ? "show": "hide"}`}>* field is required</Form.Label>
+          <Form.Label
+            className={`validation-color ${
+              showNameValidation ? "show" : "hide"
+            }`}
+          >
+            * field is required
+          </Form.Label>
         </div>
         <Form.Control
           className="custom-border"
@@ -97,7 +126,13 @@ function Contact() {
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <div className="form-label">
           <Form.Label>Email address</Form.Label>
-          <Form.Label className={`validation-color ${showEmailValidation ? "show": "hide"}`}>* field is required</Form.Label>
+          <Form.Label
+            className={`validation-color ${
+              showEmailValidation ? "show" : "hide"
+            }`}
+          >
+            * field is required
+          </Form.Label>
         </div>
         <Form.Control
           className="custom-border"
@@ -117,7 +152,13 @@ function Contact() {
       <Form.Group className="mb-3" controlId="formBasicName">
         <div className="form-label">
           <Form.Label>Subject</Form.Label>
-          <Form.Label className={`validation-color ${showSubjectValidation ? "show": "hide"}`}>* field is required</Form.Label>
+          <Form.Label
+            className={`validation-color ${
+              showSubjectValidation ? "show" : "hide"
+            }`}
+          >
+            * field is required
+          </Form.Label>
         </div>
         <Form.Control
           className="custom-border"
@@ -134,7 +175,13 @@ function Contact() {
       <Form.Group className="mb-3" controlId="formBasicMessage">
         <div className="form-label">
           <Form.Label>Message</Form.Label>
-          <Form.Label className={`validation-color ${showBodyValidation ? "show": "hide"}`}>* field is required</Form.Label>
+          <Form.Label
+            className={`validation-color ${
+              showBodyValidation ? "show" : "hide"
+            }`}
+          >
+            * field is required
+          </Form.Label>
         </div>
         {/* <Form.Label>Message</Form.Label> */}
         <Form.Control

@@ -21,8 +21,10 @@ function Portfolio() {
 
   return (
     <main className="jumbotron p-3 custom-about">
-      <h1 className="display-4 mb-0 custom-text">Porfolio</h1>
+      <h1 className="text-center text-center display-4 mb-0 custom-text">Porfolio</h1>
 
+      <hr></hr>
+      
       <div
         className="
         d-flex 

@@ -8,17 +8,18 @@ import "../styles/Resume.css";
 
 function Resume() {
   const file = (
-    <FontAwesomeIcon icon={faFileLines} inverse title="Download Resume" />
+    <FontAwesomeIcon icon={faFileLines} title="Download Resume" />
   );
-  const github = <FontAwesomeIcon icon={faGithub} inverse title="GitHub" />;
+  const github = <FontAwesomeIcon icon={faGithub} title="GitHub" />;
   const linkedin = (
-    <FontAwesomeIcon icon={faLinkedin} inverse title="LinkedIn" />
+    <FontAwesomeIcon icon={faLinkedin} title="LinkedIn" />
   );
 
   return (
     <main className="jumbotron p-3 custom-about">
-      <h1 className="display-4 custom-text">Resume</h1>
+      <h1 className="text-center display-4 custom-text">Resume</h1>
 
+      <hr></hr>
       <div className="d-flex justify-content-around align-items-center p-2 custom-footer">
         <div className="d-flex flex-column align-items-center">
           <a href="https://drive.google.com/file/d/1DAr1CbP3x3Yb7ehIgtxIV7a-SVHVI7mh/view" target="_blank" rel="noreferrer">
@@ -49,6 +50,7 @@ function Resume() {
           <p className="m-0 text-light custom-icon-text">LINKEDIN</p>
         </div>
       </div>
+      <hr></hr>
 
       <div className="d-flex flex-wrap justify-content-around custom-resume-container">
         <Card className="m-3 custom-resume-card">
