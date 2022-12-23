@@ -4,10 +4,7 @@ import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import Card from "react-bootstrap/Card";
 import "../styles/Project.css";
-
-import "../styles/techAssets.css"; //style={tech-icon} // class = .tech-icons
-import bs from "../assets/tech-assets/bootstrap.png";
-import css from "../assets/tech-assets/css3.png";
+import "../styles/techAssets.css";
 
 function Project({
   title,
@@ -20,8 +17,8 @@ function Project({
   text,
   techIcons,
 }) {
-  const githubIcon = <FontAwesomeIcon icon={faGithub} />;
-  const linkIcon = <FontAwesomeIcon icon={faLink} transform="grow-10" />;
+  const githubIcon = <FontAwesomeIcon inverse icon={faGithub} />;
+  const linkIcon = <FontAwesomeIcon icon={faLink} transform="grow-20" />;
 
   //creates transition effect for project to fly in from left
   const project = useRef();
@@ -36,8 +33,6 @@ function Project({
     observer.observe(project.current);
     // console.log('project = ', project, project.current);
   }, []);
-
-  let test = [bs, css];
 
   return (
     <>
@@ -88,29 +83,30 @@ function Project({
               title="GitHub Link"
             >
               {githubIcon}
+              GitHub
             </Card.Link>
 
             <div
-              className="d-flex justify-content-center align-items-center"
-              style={{
-                // border: "1px solid black",
-                // borderRadius: "50%",
-                height: "35px",
-                width: "35px",
-              }}
+              className="d-flex justify-content-center align-items-center card-link"
+              // style={{
+              //   height: "35px",
+              //   width: "35px",
+              // }}
             >
               <Card.Link
-                style={{
-                  marginLeft: "8px",
-                  textDecoration: "none",
-                  color: "black",
-                }}
+                className="card-link"
+                // style={{
+                //   marginLeft: "8px",
+                //   textDecoration: "none",
+                //   color: "black",
+                // }}
                 href={websiteURL}
                 target="_blank"
                 rel="noreferrer"
                 title="Website Link"
               >
                 {linkIcon}
+                Demo
               </Card.Link>
             </div>
           </div>

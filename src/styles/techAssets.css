@@ -13,9 +13,14 @@
   border: 0.25px solid lightgray;
   border-radius: 50%; */
 
-  color: "black";
-  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: "white";
+  height: 60px;
   width: 75px;
-  border: 1px solid black;
-  border-radius: 50px;
+  background-color: black;
+  /* border: 1px solid black; */
 }
