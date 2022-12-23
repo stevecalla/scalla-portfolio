@@ -16,6 +16,7 @@ function Portfolio() {
       imgAlt={project.imgAlt}
       imgTitle={project.imgTitle}
       text={project.cardText}
+      techIcons={project.techIcons}
     />
   ));
 

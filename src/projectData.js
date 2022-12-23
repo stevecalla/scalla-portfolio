@@ -55,7 +55,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techAssets: [bs, css]
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: mongo, alt: "mongoDB"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },
   {
     id: "51",
@@ -74,7 +74,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techAssets: [bs, css]
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: mongo, alt: "mongoDB"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },  
   {
     id: "53",
@@ -93,7 +93,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techAssets: [bs, css]
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: mongo, alt: "mongoDB"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },
   {
     id: "54",
@@ -112,7 +112,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techAssets: [bs, css]
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: mongo, alt: "mongoDB"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },
   {
     id: "1",
@@ -131,7 +131,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techAssets: [bs, css]
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: mongo, alt: "mongoDB"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },
   {
     id: "2",
@@ -150,7 +150,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techAssets: [bs, css]
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: mongo, alt: "mongoDB"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },
   {
     id: "3",
@@ -169,7 +169,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techAssets: [bs, css]
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: mongo, alt: "mongoDB"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },
   {
     id: "4",
@@ -188,7 +188,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techAssets: [bs, css]
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: mongo, alt: "mongoDB"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },
   {
     id: "5",
@@ -207,7 +207,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techAssets: [bs, css]
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: mongo, alt: "mongoDB"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },
   {
     id: "6",
@@ -226,7 +226,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techAssets: [bs, css]
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: mongo, alt: "mongoDB"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },
   {
     id: "7",
@@ -245,7 +245,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techAssets: [bs, css]
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: mongo, alt: "mongoDB"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },
   {
     id: "9",
@@ -264,7 +264,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techAssets: [bs, css]
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: mongo, alt: "mongoDB"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },
   {    
     id: "10",
@@ -284,7 +284,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techAssets: [bs, css]
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: mongo, alt: "mongoDB"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },
   {
     id: "11",
@@ -304,7 +304,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techAssets: [bs, css]
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: mongo, alt: "mongoDB"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },
   {
     id: "12",
@@ -324,7 +324,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techAssets: [bs, css]
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: mongo, alt: "mongoDB"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },
   {
     id: "13",
@@ -344,7 +344,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techAssets: [bs, css]
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: mongo, alt: "mongoDB"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },
   {
     id: "14",
@@ -364,7 +364,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techAssets: [bs, css]
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: mongo, alt: "mongoDB"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },
   {
     id: "15",
@@ -385,7 +385,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techAssets: [bs, css]
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: mongo, alt: "mongoDB"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },
   {
     id: "17",
@@ -406,7 +406,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techAssets: [bs, css]
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: mongo, alt: "mongoDB"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },
   {
     id: "18",
@@ -427,7 +427,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techAssets: [bs, css]
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: mongo, alt: "mongoDB"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },
   {
     id: "19",
@@ -448,7 +448,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techAssets: [bs, css]
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: mongo, alt: "mongoDB"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },
   {
     id: "20",
@@ -469,7 +469,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techAssets: [bs, css]
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: mongo, alt: "mongoDB"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },
   {
     id: "21",
@@ -490,7 +490,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techAssets: [bs, css]
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: mongo, alt: "mongoDB"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },
   {
     id: "22",
@@ -511,7 +511,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techAssets: [bs, css]
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: mongo, alt: "mongoDB"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },
   {
     id: "23",
@@ -532,7 +532,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techAssets: [bs, css]
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: mongo, alt: "mongoDB"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },
   {
     id: "24",
@@ -551,7 +551,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techAssets: [bs, css]
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: mongo, alt: "mongoDB"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },
   {
     id: "25",
@@ -570,7 +570,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techAssets: [bs, css]
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: mongo, alt: "mongoDB"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },
 ];
 

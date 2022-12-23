@@ -18,6 +18,7 @@ function Project({
   imgAlt,
   imgTitle,
   text,
+  techIcons,
 }) {
   const githubIcon = <FontAwesomeIcon icon={faGithub} />;
   const linkIcon = <FontAwesomeIcon icon={faLink} transform="grow-10" />;
@@ -66,11 +67,21 @@ function Project({
         <Card.Body>
           <Card.Subtitle>{subTitle}</Card.Subtitle>
 
-          <Card.Text>Tech: ABC, ABC, ABC</Card.Text>
+          <Card.Text></Card.Text>
+
+          <h5>Technologies:</h5>
+          {techIcons?.map(({ icon, alt }, index) => (
+            <img key={index} 
+            className="tech-icon" 
+            src={icon} 
+            alt={alt}></img>
+          ))}
+          
 
           <div className="d-flex m-2">
+
             <Card.Link
-              style={{ color: "black" }}
+              className="link-card"
               href={githubURL}
               target="_blank"
               rel="noreferrer"
@@ -102,17 +113,7 @@ function Project({
                 {linkIcon}
               </Card.Link>
             </div>
-
           </div>
-            {test?.map((icon, index) =>  (
-                <img 
-                  key={index}
-                  src={icon} 
-                  alt=""
-                  className="tech-icon"
-                ></img>
-            ))}
-
         </Card.Body>
       </Card>
     </>

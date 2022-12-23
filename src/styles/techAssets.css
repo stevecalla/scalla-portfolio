@@ -1,6 +1,21 @@
 .tech-icon {
-  border-radius: 50%;
   height: 40px;
   width: 40px;
   margin-right: 5px;
+  border: 0.25px solid lightgray;
+  border-radius: 50%;
+}
+
+.link-card {
+  /* height: 40px;
+  width: 40px;
+  margin-right: 5px;
+  border: 0.25px solid lightgray;
+  border-radius: 50%; */
+
+  color: "black";
+  height: 50px;
+  width: 75px;
+  border: 1px solid black;
+  border-radius: 50px;
 }
