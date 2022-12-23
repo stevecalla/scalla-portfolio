@@ -1,31 +1,41 @@
-import portfolio_2 from "./assets/images/2_early_portfolio.png";
-import webQuiz_4 from "./assets/images/4_web_quiz.png";
-import dayplanner_5 from "./assets/images/5_day_planner.png";
-import weatherDash_6 from "./assets/images/6_weather_dashboard.png";
-import skiPlanner_7 from "./assets/images/7_ski_planner.png";
-import create_readme_9 from "./assets/images/9_create_readme.png";
-import team_profile_10 from "./assets/images/10_team_profile.png";
-import note_page_11 from "./assets/images/11_note_taker_v2.png";
-import employeeTracker_12 from "./assets/images/12_employee_tracker.png";
-import ecommerce_13 from "./assets/images/13_ecommerce.png";
-import tech_blog_14 from "./assets/images/14_tech_blog.png";
-import hikamp_15 from "./assets/images/15_hikamp.png";
-import regex_17 from "./assets/images/17_regex.png";
-import social_network_18 from "./assets/images/18_social_network_api.png";
-import pwa_19 from "./assets/images/19_PWA.png";
-import portfolio_react_20 from "./assets/images/20_portfolio_react.png";
-import book_search_engine_21 from "./assets/images/21_book_search_engine.png";
-import shop_stripe_22 from "./assets/images/22_shop_stripe.png";
-import pristine_clean_23 from "./assets/images/23_pristine_clean.png";
-import css_24 from "./assets/images/24_css_cheatsheet.png";
-import password_25 from "./assets/images/25_password-generator.png";
-import rock_paper_scissors_25 from "./assets/images/25_rock_paper_scissors.png";
-import wordle_50 from "./assets/images/50_wordguess_black.png";
-import wordle3_50a from "./assets/images/50a_wordguess_menu.png";
-import wordle2_50b from "./assets/images/50b_wordguess_white.png";
-import bessie_51 from "./assets/images/51_bessie_the_dog_app.png";
-import tictactoe_53 from "./assets/images/53_tic-tac-toe.png";
-import marvel_54 from "./assets/images/54_marvel_characters.png";
+import portfolio_2 from "./assets/portfolio/2_early_portfolio.png";
+import webQuiz_4 from "./assets/portfolio/4_web_quiz.png";
+import dayplanner_5 from "./assets/portfolio/5_day_planner.png";
+import weatherDash_6 from "./assets/portfolio/6_weather_dashboard.png";
+import skiPlanner_7 from "./assets/portfolio/7_ski_planner.png";
+import create_readme_9 from "./assets/portfolio/9_create_readme.png";
+import team_profile_10 from "./assets/portfolio/10_team_profile.png";
+import note_page_11 from "./assets/portfolio/11_note_taker_v2.png";
+import employeeTracker_12 from "./assets/portfolio/12_employee_tracker.png";
+import ecommerce_13 from "./assets/portfolio/13_ecommerce.png";
+import tech_blog_14 from "./assets/portfolio/14_tech_blog.png";
+import hikamp_15 from "./assets/portfolio/15_hikamp.png";
+import regex_17 from "./assets/portfolio/17_regex.png";
+import social_network_18 from "./assets/portfolio/18_social_network_api.png";
+import pwa_19 from "./assets/portfolio/19_PWA.png";
+import portfolio_react_20 from "./assets/portfolio/20_portfolio_react.png";
+import book_search_engine_21 from "./assets/portfolio/21_book_search_engine.png";
+import shop_stripe_22 from "./assets/portfolio/22_shop_stripe.png";
+import pristine_clean_23 from "./assets/portfolio/23_pristine_clean.png";
+import css_24 from "./assets/portfolio/24_css_cheatsheet.png";
+import password_25 from "./assets/portfolio/25_password-generator.png";
+import rock_paper_scissors_25 from "./assets/portfolio/25_rock_paper_scissors.png";
+import wordle_50 from "./assets/portfolio/50_wordguess_black.png";
+import wordle3_50a from "./assets/portfolio/50a_wordguess_menu.png";
+import wordle2_50b from "./assets/portfolio/50b_wordguess_white.png";
+import bessie_51 from "./assets/portfolio/51_bessie_the_dog_app.png";
+import tictactoe_53 from "./assets/portfolio/53_tic-tac-toe.png";
+import marvel_54 from "./assets/portfolio/54_marvel_characters.png";
+
+import bs from "./assets/tech-assets/bootstrap.png";
+import css from "./assets/tech-assets/css3.png";
+import express from "./assets/tech-assets/express.png";
+import html from "./assets/tech-assets/html5.png";
+import jq from "./assets/tech-assets/jQuery.png";
+import mongo from "./assets/tech-assets/mongodb.png";
+import sql from "./assets/tech-assets/MySQL.jpeg";
+import node from "./assets/tech-assets/nodeJS.png";
+import react from "./assets/tech-assets/React.png";
 
 const projects = [
   {
@@ -45,6 +55,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techAssets: [bs, css]
   },
   {
     id: "51",
@@ -63,6 +74,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techAssets: [bs, css]
   },  
   {
     id: "53",
@@ -81,6 +93,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techAssets: [bs, css]
   },
   {
     id: "54",
@@ -99,6 +112,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techAssets: [bs, css]
   },
   {
     id: "1",
@@ -117,6 +131,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techAssets: [bs, css]
   },
   {
     id: "2",
@@ -135,6 +150,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techAssets: [bs, css]
   },
   {
     id: "3",
@@ -153,6 +169,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techAssets: [bs, css]
   },
   {
     id: "4",
@@ -171,6 +188,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techAssets: [bs, css]
   },
   {
     id: "5",
@@ -189,6 +207,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techAssets: [bs, css]
   },
   {
     id: "6",
@@ -207,6 +226,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techAssets: [bs, css]
   },
   {
     id: "7",
@@ -225,6 +245,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techAssets: [bs, css]
   },
   {
     id: "9",
@@ -243,6 +264,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techAssets: [bs, css]
   },
   {    
     id: "10",
@@ -262,6 +284,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techAssets: [bs, css]
   },
   {
     id: "11",
@@ -281,6 +304,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techAssets: [bs, css]
   },
   {
     id: "12",
@@ -300,6 +324,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techAssets: [bs, css]
   },
   {
     id: "13",
@@ -319,6 +344,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techAssets: [bs, css]
   },
   {
     id: "14",
@@ -338,6 +364,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techAssets: [bs, css]
   },
   {
     id: "15",
@@ -358,6 +385,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techAssets: [bs, css]
   },
   {
     id: "17",
@@ -378,6 +406,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techAssets: [bs, css]
   },
   {
     id: "18",
@@ -398,6 +427,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techAssets: [bs, css]
   },
   {
     id: "19",
@@ -418,6 +448,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techAssets: [bs, css]
   },
   {
     id: "20",
@@ -438,6 +469,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techAssets: [bs, css]
   },
   {
     id: "21",
@@ -458,6 +490,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techAssets: [bs, css]
   },
   {
     id: "22",
@@ -478,6 +511,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techAssets: [bs, css]
   },
   {
     id: "23",
@@ -498,6 +532,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techAssets: [bs, css]
   },
   {
     id: "24",
@@ -516,6 +551,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techAssets: [bs, css]
   },
   {
     id: "25",
@@ -534,6 +570,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techAssets: [bs, css]
   },
 ];
 

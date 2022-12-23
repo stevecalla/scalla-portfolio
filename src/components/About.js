@@ -1,5 +1,5 @@
 import React from "react";
-import callaPhoto from "../assets/images/calla-photo.png";
+import callaPhoto from "../assets/resume/calla-photo.png";
 import "../styles/About.css";
 
 function About() {
