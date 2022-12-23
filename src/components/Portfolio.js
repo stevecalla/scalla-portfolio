@@ -22,7 +22,15 @@ function Portfolio() {
 
   return (
     <main className="jumbotron p-3 custom-about">
-      <h1 className="text-center text-center display-4 mb-0 custom-text">Porfolio</h1>
+      <h1 className="
+        text-center 
+        text-center 
+        display-4 
+        mb-0 
+        custom-text"
+      >
+        Porfolio
+      </h1>
 
       <hr></hr>
       
@@ -30,9 +38,10 @@ function Portfolio() {
         className="
         d-flex 
         flex-wrap 
+        overflow-auto
         justify-content-around 
-        overflow-auto 
         custom-project-container"
+        style={{ height: "55vh" }}
       >
         {projectCards}
       </div>
