@@ -29,7 +29,7 @@ function Footer() {
         .share({
           text: `I'd Like to Introduce Steve Calla. I believe he would immediately add significant value due to his unique background in marketing, consumer insights, business intelligence / analytics, modeling/forecasting.
 
-          Resume Link: https://drive.google.com/file/d/19EVtUt65r8nmAcmIowTwtmN3TE1vi74-/view?usp=share_link
+          Resume Link: https://drive.google.com/file/d/1EKvLxH5QvoeXzssTZMti8MKHHJmBXVx-/view?usp=sharing
           
           LinkedIn: https://www.linkedin.com/in/steve-calla/
 

@@ -22,7 +22,7 @@ function Resume() {
       <hr></hr>
       <div className="d-flex justify-content-around align-items-center p-2 custom-footer">
         <div className="d-flex flex-column align-items-center">
-          <a href="https://drive.google.com/file/d/1DAr1CbP3x3Yb7ehIgtxIV7a-SVHVI7mh/view" target="_blank" rel="noreferrer">
+          <a href="https://drive.google.com/file/d/1EKvLxH5QvoeXzssTZMti8MKHHJmBXVx-/view?usp=sharing" target="_blank" rel="noreferrer">
             <p className="m-0">{file}</p>
           </a>
           <p className="m-0 text-light custom-icon-text">RESUME</p>
