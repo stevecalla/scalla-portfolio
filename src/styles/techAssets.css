@@ -1,0 +1,30 @@
+.tech-icon {
+  height: 35px;
+  width: 35px;
+  margin-right: 5px;
+  border: 0.25px solid lightgray;
+  border-radius: 50%;
+}
+
+.tech-icon:hover {
+  height: 40px;
+  width: 40px;
+}
+
+.fa-link:hover {
+  height: 22px;
+  width: 22px;
+}
+
+.link-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 75px;
+  color: white;
+  background-color: lightblue;
+  border-radius: 5px;
+  text-decoration: none;
+}

@@ -1,37 +1,52 @@
-import portfolio_2 from "./assets/images/2_early_portfolio.png";
-import webQuiz_4 from "./assets/images/4_web_quiz.png";
-import dayplanner_5 from "./assets/images/5_day_planner.png";
-import weatherDash_6 from "./assets/images/6_weather_dashboard.png";
-import skiPlanner_7 from "./assets/images/7_ski_planner.png";
-import create_readme_9 from "./assets/images/9_create_readme.png";
-import team_profile_10 from "./assets/images/10_team_profile.png";
-import note_page_11 from "./assets/images/11_note_taker_v2.png";
-import employeeTracker_12 from "./assets/images/12_employee_tracker.png";
-import ecommerce_13 from "./assets/images/13_ecommerce.png";
-import tech_blog_14 from "./assets/images/14_tech_blog.png";
-import hikamp_15 from "./assets/images/15_hikamp.png";
-import regex_17 from "./assets/images/17_regex.png";
-import social_network_18 from "./assets/images/18_social_network_api.png";
-import pwa_19 from "./assets/images/19_PWA.png";
-import portfolio_react_20 from "./assets/images/20_portfolio_react.png";
-import book_search_engine_21 from "./assets/images/21_book_search_engine.png";
-import shop_stripe_22 from "./assets/images/22_shop_stripe.png";
-import pristine_clean_23 from "./assets/images/23_pristine_clean.png";
-import css_24 from "./assets/images/24_css_cheatsheet.png";
-import password_25 from "./assets/images/25_password-generator.png";
-import rock_paper_scissors_25 from "./assets/images/25_rock_paper_scissors.png";
-import wordle_50 from "./assets/images/50_wordguess_black.png";
-import wordle3_50a from "./assets/images/50a_wordguess_menu.png";
-import wordle2_50b from "./assets/images/50b_wordguess_white.png";
-import bessie_51 from "./assets/images/51_bessie_the_dog_app.png";
-import tictactoe_53 from "./assets/images/53_tic-tac-toe.png";
-import marvel_54 from "./assets/images/54_marvel_characters.png";
+import portfolio_2 from "./assets/portfolio/2_early_portfolio.png";
+import webQuiz_4 from "./assets/portfolio/4_web_quiz.png";
+import dayplanner_5 from "./assets/portfolio/5_day_planner.png";
+import weatherDash_6 from "./assets/portfolio/6_weather_dashboard.png";
+import skiPlanner_7 from "./assets/portfolio/7_ski_planner.png";
+import create_readme_9 from "./assets/portfolio/9_create_readme.png";
+import team_profile_10 from "./assets/portfolio/10_team_profile.png";
+import note_page_11 from "./assets/portfolio/11_note_taker_v2.png";
+import employeeTracker_12 from "./assets/portfolio/12_employee_tracker.png";
+import ecommerce_13 from "./assets/portfolio/13_ecommerce.png";
+import tech_blog_14 from "./assets/portfolio/14_tech_blog.png";
+import hikamp_15 from "./assets/portfolio/15_hikamp.png";
+import regex_17 from "./assets/portfolio/17_regex.png";
+import social_network_18 from "./assets/portfolio/18_social_network_api.png";
+import pwa_19 from "./assets/portfolio/19_PWA.png";
+import portfolio_react_20 from "./assets/portfolio/20_portfolio_react.png";
+import book_search_engine_21 from "./assets/portfolio/21_book_search_engine.png";
+import shop_stripe_22 from "./assets/portfolio/22_shop_stripe.png";
+import pristine_clean_23 from "./assets/portfolio/23_pristine_clean.png";
+import css_24 from "./assets/portfolio/24_css_cheatsheet.png";
+import password_25 from "./assets/portfolio/25_password-generator.png";
+import rock_paper_scissors_25 from "./assets/portfolio/25_rock_paper_scissors.png";
+import wordle_50 from "./assets/portfolio/50_wordguess_black.png";
+import wordle3_50a from "./assets/portfolio/50a_wordguess_menu.png";
+import wordle2_50b from "./assets/portfolio/50b_wordguess_white.png";
+import bessie_51 from "./assets/portfolio/51_bessie_the_dog_app.png";
+import tictactoe_53 from "./assets/portfolio/53_tic-tac-toe.png";
+import marvel_54 from "./assets/portfolio/54_marvel_characters.png";
+import bs from "./assets/tech-assets/bootstrap.png";
+import css from "./assets/tech-assets/css3.png";
+import express from "./assets/tech-assets/express.png";
+import html from "./assets/tech-assets/html5.png";
+import jq from "./assets/tech-assets/jQuery.png";
+import js from "./assets/tech-assets/JS.png";
+import mongo from "./assets/tech-assets/mongodb.png";
+import sql from "./assets/tech-assets/MySQL.jpeg";
+import node from "./assets/tech-assets/nodeJS.png";
+import react from "./assets/tech-assets/React.png";
+
+import graphql from "./assets/tech-assets/graphql.png";
+import redux from "./assets/tech-assets/redux.png";
+import pwa from "./assets/tech-assets/pwa.png";
+import md from "./assets/tech-assets/markdown.png";
 
 const projects = [
   {
     id: "50",
     title: "Wordguess",
-    subTitle: "A Wordle Clone",
+    subTitle: "Let's play - build a Wordle clone with enhanced functionality.",
     githubLink: "https://github.com/stevecalla/not_wordle_v1",
     websiteLink: "https://stevecalla.github.io/not_wordle_v1/",
     websiteTitle: "",
@@ -45,11 +60,12 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techIcons: [{icon: css, alt: "css"}, {icon: html, alt: "html"}, {icon: js, alt: "JavaScript"}, {icon: react, alt: "React"}]
   },
   {
     id: "51",
     title: "Bessie the Dog",
-    subTitle: "A Dog's Life",
+    subTitle: "A Dog's Life - build a photo library.",
     githubLink: "https://github.com/stevecalla/bessie-the-dog",
     websiteLink: "https://stevecalla.github.io/bessie-the-dog/",
     websiteTitle: "Bessie the Dog Photos",
@@ -63,11 +79,12 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techIcons: [{icon: css, alt: "css"}, {icon: html, alt: "html"}, {icon: js, alt: "JavaScript"}]
   },  
   {
     id: "53",
     title: "Tic Tac Toe",
-    subTitle: "Play Now!",
+    subTitle: "Play Now - build a Tic Tac Toe game using a class structure!",
     githubLink: "https://github.com/stevecalla/tictactoe",
     websiteLink: "https://stevecalla.github.io/tictactoe/",
     websiteTitle: "Tic Tac Toe",
@@ -81,11 +98,12 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techIcons: [{icon: css, alt: "css"}, {icon: html, alt: "html"}, {icon: js, alt: "JavaScript"}]
   },
   {
     id: "54",
     title: "Marvel Characters",
-    subTitle: "Which is your favorite?",
+    subTitle: "Which is your favorite - build a marvel comic website using React and third-party APIs.",
     githubLink: "https://github.com/stevecalla/MOD2_Static_Comp",
     websiteLink: "https://stevecalla.github.io/MOD2_Static_Comp/",
     websiteTitle: "Marvel Character Cards",
@@ -99,11 +117,12 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techIcons: [{icon: css, alt: "css"}, {icon: html, alt: "html"}, {icon: js, alt: "JavaScript"}, {icon: react, alt: "React"}]
   },
   {
     id: "1",
     title: "Horiseon Mockup",
-    subTitle: "Semantic HTML & Accessibility",
+    subTitle: "Build a basic app using semantic HTML & accessibility standards.",
     githubLink: "https://github.com/stevecalla/horiseon-mockup",
     websiteLink: "https://stevecalla.github.io/horiseon-mockup/",
     websiteTitle: "Horiseon Mockup",
@@ -117,11 +136,12 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techIcons: [{icon: css, alt: "css"}, {icon: html, alt: "html"}]
   },
   {
     id: "2",
     title: "Calla Portfolio",
-    subTitle: "An Early Portfolio - HTML",
+    subTitle: "An Early Portfolio - build a basic portfolio app.",
     githubLink: "https://github.com/stevecalla/portfolio-steve-calla",
     websiteLink: "https://stevecalla.github.io/portfolio-steve-calla/",
     websiteTitle: "An Early Portfolio",
@@ -135,11 +155,12 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techIcons: [{icon: css, alt: "css"}, {icon: html, alt: "html"}, {icon: js, alt: "JavaScript"}]
   },
   {
     id: "3",
     title: "Password Generator",
-    subTitle: "Generate a Random Password",
+    subTitle: "Generate a Random Password = build a random password generator using JavaScript.",
     githubLink: "https://github.com/stevecalla/generate-password",
     websiteLink: "https://stevecalla.github.io/generate-password/",
     websiteTitle: "Password Generator",
@@ -153,6 +174,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techIcons: [{icon: css, alt: "css"}, {icon: html, alt: "html"}, {icon: js, alt: "JavaScript"}]
   },
   {
     id: "4",
@@ -171,11 +193,12 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techIcons: [{icon: css, alt: "css"}, {icon: html, alt: "html"}, {icon: js, alt: "JavaScript"}]
   },
   {
     id: "5",
     title: "A Day Planner",
-    subTitle: "jQuery, Bootstap, Moment & More",
+    subTitle: "Build a day planner using jQuery, Bootstap, Moment & more.",
     githubLink: "https://github.com/stevecalla/day-planner",
     websiteLink: "https://stevecalla.github.io/day-planner",
     websiteTitle: "TBD",
@@ -189,11 +212,12 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techIcons: [{icon: css, alt: "css"}, {icon: html, alt: "html"}, {icon: js, alt: "JavaScript"}]
   },
   {
     id: "6",
     title: "Weather Dashboard",
-    subTitle: "jQuery, Bootstap, Moment, APIs & More",
+    subTitle: "Build a weather dashboard using jQuery, Bootstap, Moment, third-party APIs & more.",
     githubLink: "https://github.com/stevecalla/weather-dashboard",
     websiteLink: "https://stevecalla.github.io/weather-dashboard",
     websiteTitle: "TBD",
@@ -207,11 +231,12 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techIcons: [{icon: css, alt: "css"}, {icon: html, alt: "html"}, {icon: js, alt: "JavaScript"}]
   },
   {
     id: "7",
     title: "Ski Planner",
-    subTitle: "APIs, Bluma, Maps, Autocomplete & More",
+    subTitle: "Build a ski planning app that provides resort information, weather, and directions using with Bluma, Google Mpas, jQuery autocomplete & more features.",
     githubLink: "https://github.com/stevecalla/ski-planner",
     websiteLink: "https://stevecalla.github.io/ski-planner",
     websiteTitle: "TBD",
@@ -225,11 +250,12 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techIcons: [{icon: css, alt: "css"}, {icon: html, alt: "html"}, {icon: js, alt: "JavaScript"}]
   },
   {
     id: "9",
     title: "Create Readme",
-    subTitle: "Command Line Tool to create a Readme",
+    subTitle: "Create a command Line tool to generate a Readme file.",
     githubLink: "https://github.com/stevecalla/create-readme",
     websiteLink: "https://youtu.be/veECssMcEJk",
     websiteTitle: "TBD",
@@ -243,11 +269,12 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techIcons: [{icon: css, alt: "css"}, {icon: html, alt: "html"}, {icon: js, alt: "JavaScript"}]
   },
   {    
     id: "10",
     title: "Team Profile Generator",
-    subTitle: "Create Website from Command Line include Jest Testing",
+    subTitle: "Create Website from command line including Jest testing.",
     githubLink: "https://github.com/stevecalla/team-profile-generator",
     websiteLink: "https://stevecalla.github.io/team-profile-generator/",
     videoLink: "https://youtu.be/_hr9SKZC5Rc",
@@ -262,11 +289,12 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techIcons: [{icon: css, alt: "css"}, {icon: html, alt: "html"}, {icon: js, alt: "JavaScript"}]
   },
   {
     id: "11",
     title: "Note Taker",
-    subTitle: "Using Express & Deployed in Heroku",
+    subTitle: "Build a note taker app using Express & deployed in Heroku.",
     githubLink: "https://github.com/stevecalla/note-taker",
     websiteLink: "https://calla-note-taker.herokuapp.com/",
     videoLink: "https://youtu.be/odtZNxBx4_c",
@@ -281,11 +309,12 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techIcons: [{icon: css, alt: "css"}, {icon: html, alt: "html"}, {icon: js, alt: "JavaScript"}]
   },
   {
     id: "12",
     title: "Employee Tracker",
-    subTitle: "Command Line Interface to Track Employees",
+    subTitle: "Create a command line interface to track employees.",
     githubLink: "https://github.com/stevecalla/employee-tracker",
     websiteLink: "https://youtu.be/mTXi192qhBY",
     videoLink: "https://youtu.be/mTXi192qhBY",
@@ -300,11 +329,12 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techIcons: [{icon: css, alt: "css"}, {icon: html, alt: "html"}, {icon: js, alt: "JavaScript"}]
   },
   {
     id: "13",
     title: "E-commerce Back-end",
-    subTitle: "Command-line interface (CLI) with an API (using Express.js) and MySQL database (using Sequelize)",
+    subTitle: "Create an e-commerce back-end command-line interface (CLI) with an API (using Express.js) and MySQL database (using Sequelize).",
     githubLink: "https://github.com/stevecalla/ecommerce-backend",
     websiteLink: "https://www.youtube.com/watch?v=zZlf6Svef_c",
     videoLink: "https://www.youtube.com/watch?v=slAFeFB_kok",
@@ -319,11 +349,12 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techIcons: [{icon: express, alt: "express"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}]
   },
   {
     id: "14",
     title: "Tech Blog",
-    subTitle: "TBD",
+    subTitle: "Create a tech blog.",
     githubLink: "https://github.com/stevecalla/tech-blog ",
     websiteLink: "https://techie-blog-301.herokuapp.com/",
     videoLink: "https://youtu.be/GVZ9KZithiY",
@@ -338,11 +369,12 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techIcons: [{icon: css, alt: "css"}, {icon: html, alt: "html"}, {icon: js, alt: "JavaScript"}]
   },
   {
     id: "15",
     title: "HiKamp",
-    subTitle: "Node, Handlebars, Express, Bootstrap, Google Maps & more",
+    subTitle: "Create a camping planning website using Node, Handlebars, Express, Bootstrap, Google Maps & more.",
     githubLink: "https://github.com/stevecalla/hiKamp",
     websiteLink: "https://hikamp.herokuapp.com",
     videoLink: "https://drive.google.com/file/d/10yAM_sW0jlxf3e_GrgcTl06Mc4OQp61M/view",
@@ -358,11 +390,12 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: js, alt: "JavaScript"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },
   {
     id: "17",
     title: "A Regex Tutorial",
-    subTitle: "A regex gist tutorial",
+    subTitle: "Learn regex and create a regex tutorial using a Github gist.",
     githubLink: "https://gist.github.com/stevecalla/b1f49a30c95b7fee813052f66d35c649",
     websiteLink: "https://gist.github.com/stevecalla/b1f49a30c95b7fee813052f66d35c649",
     videoLink: "",
@@ -378,11 +411,12 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techIcons: [{icon: md, alt: "Markdown"}]
   },
   {
     id: "18",
     title: "Social Network API",
-    subTitle: "Use Mongo & Mongoose to Create a social network API",
+    subTitle: "Create a social network API using Mongo & Mongoose.",
     githubLink: "https://github.com/stevecalla/social-network-api",
     websiteLink: "https://youtu.be/HNc61D-j4nI",
     videoLink: "https://youtu.be/rqdCeiGhVAI",
@@ -398,11 +432,12 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techIcons: [{icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: js, alt: "JavaScript"}, {icon: mongo, alt: "mongoDB"}, {icon: node, alt: "nodeJS"}]
   },
   {
     id: "19",
     title: "PWA Text Editor",
-    subTitle: "PWA using Node, Express, Mongo, Mongoose",
+    subTitle: "Create a progressive web app (PWA) using Node, Express, Mongo, and Mongoose.",
     githubLink: "https://github.com/stevecalla/text-editor-pwa",
     websiteLink: "https://text-editor-calla.herokuapp.com/",
     videoLink: "https://youtu.be/7rJIh6TlAho",
@@ -418,11 +453,12 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: js, alt: "JavaScript"}, {icon: mongo, alt: "mongoDB"}, {icon: node, alt: "nodeJS"}, {icon: pwa, alt: "Progressive Web App"}, {icon: graphql, alt: "Apollo Graphql"}]
   },
   {
     id: "20",
     title: "Portfolio - Using React",
-    subTitle: "Using React featuring Responsiveness, Sharing API and more",
+    subTitle: "Create a portfolio using React featuringrResponsiveness, native \"sharing\" API and more.",
     githubLink: "https://github.com/stevecalla/scalla-portfolio ",
     websiteLink: "https://stevecalla.github.io/scalla-portfolio/",
     videoLink: "https://youtu.be/k6Rsua0mPys",
@@ -438,11 +474,12 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: html, alt: "html"}, {icon: js, alt: "JavaScript"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
   },
   {
     id: "21",
     title: "Book Search Engine",
-    subTitle: "React with GraphQL, Bootstrap, Mongo/Mongoose, JSONWebToken & more",
+    subTitle: "Create a search engine in React with GraphQL, Bootstrap, Mongo/Mongoose, JSONWebToken & more.",
     githubLink: "https://github.com/stevecalla/book-search-engine-v2",
     websiteLink: "https://book-search-engine-calla.herokuapp.com/ ",
     videoLink: "https://youtu.be/XXe5NX0E9NM",
@@ -458,11 +495,12 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: js, alt: "JavaScript"}, {icon: mongo, alt: "mongoDB"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}, {icon: pwa, alt: "Progressive Web App"}, {icon: graphql, alt: "Apollo Graphql"}]
   },
   {
     id: "22",
     title: "Stripe Shopping App",
-    subTitle: "Redux Global Context, Stripe Checkout, Heroku Deploy and more",
+    subTitle: "Create a shopping app with Redux global context, Stripe Checkout, Heroku Deploy and more.",
     githubLink: "https://github.com/stevecalla/shop-stripe",
     websiteLink: "https://shop-stripe.herokuapp.com/ ",
     videoLink: "https://youtu.be/BAm6qmxFOb0",
@@ -478,11 +516,12 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: js, alt: "JavaScript"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}, {icon: redux, alt: "Redux"}]
   },
   {
     id: "23",
     title: "Pristine Clean",
-    subTitle: "MERN Stack with FullCalendar, Google Maps & PWA",
+    subTitle: "Create a commercial cleaning app with a MERN Stack using FullCalendar, Google Maps & PWA.",
     githubLink: "https://github.com/stevecalla/pristine-clean-v2",
     websiteLink: "https://dry-sands-56635.herokuapp.com/messages",
     videoLink: "https://drive.google.com/file/d/1w3eswEcDTp-oEddsNW0qHvPi9W9iFht3/view",
@@ -498,11 +537,13 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    
+    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "css"}, {icon: express, alt: "express"}, {icon: html, alt: "html"}, {icon: jq, alt: "jQuery"}, {icon: js, alt: "JavaScript"}, {icon: mongo, alt: "mongoDB"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}, {icon: pwa, alt: "Progressive Web App"}, {icon: graphql, alt: "Apollo Graphql"}]
   },
   {
     id: "24",
     title: "CSS",
-    subTitle: "A Cheatsheet",
+    subTitle: "Create a simple CSS cheatsheet.",
     githubLink: "https://github.com/stevecalla/css-cheatsheet",
     websiteLink: "https://stevecalla.github.io/css-cheatsheet/",
     websiteTitle: "CSS Cheatsheet",
@@ -516,11 +557,13 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    
+    techIcons: [{icon: css, alt: "css"}, {icon: html, alt: "html"}, {icon: js, alt: "JavaScript"}]
   },
   {
     id: "25",
-    title: "Rock Paper Scissors",
-    subTitle: "Wanna Play? (Code = alert, confirm, prompt)",
+    title: "Rock Paper Scissors (RPS)",
+    subTitle: "Wanna Play? Create RPS game using alert, confirm, and prompt.",
     githubLink: "https://github.com/stevecalla/rock-paper-scissors",
     websiteLink: "https://stevecalla.github.io/rock-paper-scissors/",
     websiteTitle: "Password Generator",
@@ -534,7 +577,10 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
+    techIcons: [{icon: css, alt: "css"}, {icon: html, alt: "html"}, {icon: js, alt: "JavaScript"}, {icon: node, alt: "nodeJS"}]
   },
 ];
 
 export default projects;
+
+// , {icon: pwa, alt: "Progressive Web App"}, {icon: graphql, alt: "Apollo Graphql"}, {icon: redux, alt: "Redux"}

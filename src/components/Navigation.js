@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Collapse from "react-bootstrap/Collapse";
-import menu from "../assets/images/menu.svg";
+import menu from "../assets/icons/menu.svg";
 import "../styles/Navigation.css";
 
 function Navigation({ currentPage, handlePageChange }) {
