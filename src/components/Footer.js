@@ -22,6 +22,11 @@ function Footer() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
+  const resumeLink = "https://drive.google.com/file/d/1EKvLxH5QvoeXzssTZMti8MKHHJmBXVx-/view?usp=sharing";
+  const linkedInLink = "https://www.linkedin.com/in/steve-calla/";
+  const portfolioLink = "https://stevecalla.github.io/scalla-portfolio/";
+  const gitHubLink = "https://github.com/stevecalla/";
+
   const webShareAPI = () => {
     if (navigator.share) {
       console.log("true");
@@ -29,11 +34,12 @@ function Footer() {
         .share({
           text: `I'd Like to Introduce Steve Calla. I believe he would immediately add significant value due to his unique background in marketing, consumer insights, business intelligence / analytics, modeling/forecasting.
 
-          Resume Link: https://drive.google.com/file/d/1EKvLxH5QvoeXzssTZMti8MKHHJmBXVx-/view?usp=sharing
+          Resume Link: ${resumeLink}
           
-          LinkedIn: https://www.linkedin.com/in/steve-calla/
+          LinkedIn: ${linkedInLink}
 
-          Portfolio: https://stevecalla.github.io/scalla-portfolio/`,
+          Portfolio: ${portfolioLink}
+          `,
         })
         .then(() => console.log("Successful share"))
         .catch((error) => console.log("Error sharing", error));
@@ -47,14 +53,14 @@ function Footer() {
     <>
       <footer className="d-flex justify-content-center p-2 custom-footer">
         <a
-          href="https://github.com/stevecalla/"
+          href={gitHubLink}
           target="_blank"
           rel="noreferrer"
         >
           <p className="p-2">{github}</p>
         </a>
         <a
-          href="https://www.linkedin.com/in/steve-calla/"
+          href={linkedInLink}
           target="_blank"
           rel="noreferrer"
         >
@@ -82,7 +88,7 @@ function Footer() {
               title="Email share"
               onClick={() =>
                 window.open(
-                  `mailto:example@example.com?subject=I'd Like to Introduce Steve Calla&body=Hello - I believe Steve would immediately add significant value due to his unique background in marketing, consumer insights, business intelligence / analytics, modeling/forecasting.%0D%0A%0D%0AResume Link: https://drive.google.com/file/d/19EVtUt65r8nmAcmIowTwtmN3TE1vi74-/view?usp=share_link%0D%0A%0D%0ALinkedIn: https://www.linkedin.com/in/steve-calla/%0D%0A%0D%0APortfolio: https://stevecalla.github.io/scalla-portfolio/`
+                  `mailto:example@example.com?subject=I'd Like to Introduce Steve Calla&body=Hello - I believe Steve would immediately add significant value due to his unique background in marketing, consumer insights, business intelligence / analytics, modeling/forecasting.%0D%0A%0D%0AResume Link: ${resumeLink}%0D%0A%0D%0ALinkedIn: ${linkedInLink}%0D%0A%0D%0APortfolio: ${portfolioLink}`
                 )
               }
             >

@@ -15,6 +15,10 @@ function Resume() {
     <FontAwesomeIcon icon={faLinkedin} title="LinkedIn" />
   );
 
+  const resumeLink = "https://drive.google.com/file/d/1EKvLxH5QvoeXzssTZMti8MKHHJmBXVx-/view?usp=sharing";
+  const linkedInLink = "https://www.linkedin.com/in/steve-calla/";
+  const gitHubLink = "https://github.com/stevecalla/";
+
   return (
     <main className="jumbotron p-3 custom-about">
       <h1 className="text-center display-4 custom-text">Resume</h1>
@@ -22,7 +26,7 @@ function Resume() {
       <hr></hr>
       <div className="d-flex justify-content-around align-items-center p-2 custom-footer">
         <div className="d-flex flex-column align-items-center">
-          <a href="https://drive.google.com/file/d/1EKvLxH5QvoeXzssTZMti8MKHHJmBXVx-/view?usp=sharing" target="_blank" rel="noreferrer">
+          <a href={resumeLink} target="_blank" rel="noreferrer">
             <p className="m-0">{file}</p>
           </a>
           <p className="m-0 text-light custom-icon-text">RESUME</p>
@@ -30,7 +34,7 @@ function Resume() {
 
         <div className="d-flex flex-column align-items-center">
           <a
-            href="https://github.com/stevecalla/"
+            href={gitHubLink}
             target="_blank"
             rel="noreferrer"
           >
@@ -41,7 +45,7 @@ function Resume() {
 
         <div className="d-flex flex-column align-items-center">
           <a
-            href="https://www.linkedin.com/in/steve-calla/"
+            href={linkedInLink}
             target="_blank"
             rel="noreferrer"
           >
