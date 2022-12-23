@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/scalla-portfolio/static/css/main.c0aecbb3.css",
-    "main.js": "/scalla-portfolio/static/js/main.2177c707.js",
+    "main.css": "/scalla-portfolio/static/css/main.4c5008f1.css",
+    "main.js": "/scalla-portfolio/static/js/main.da774b53.js",
     "static/js/787.96f1a339.chunk.js": "/scalla-portfolio/static/js/787.96f1a339.chunk.js",
     "static/media/15_hikamp.png": "/scalla-portfolio/static/media/15_hikamp.b33da8257377ed17eb9b.png",
     "static/media/7_ski_planner.png": "/scalla-portfolio/static/media/7_ski_planner.5407e2de4c184d8b807d.png",
@@ -30,18 +30,25 @@
     "static/media/2_early_portfolio.png": "/scalla-portfolio/static/media/2_early_portfolio.68533fc9a6fd8881dde9.png",
     "static/media/23_pristine_clean.png": "/scalla-portfolio/static/media/23_pristine_clean.f67ab62073939ba81d17.png",
     "static/media/13_ecommerce.png": "/scalla-portfolio/static/media/13_ecommerce.e0a59a8b08241a5ce00f.png",
+    "static/media/MySQL.jpeg": "/scalla-portfolio/static/media/MySQL.e1595fa4556259b78529.jpeg",
     "service-worker.js": "/scalla-portfolio/service-worker.js",
+    "static/media/jQuery.png": "/scalla-portfolio/static/media/jQuery.66108f53b218c72ed50a.png",
     "static/media/21_book_search_engine.png": "/scalla-portfolio/static/media/21_book_search_engine.1fd5612de0e3f014fe66.png",
     "static/media/11_note_taker_v2.png": "/scalla-portfolio/static/media/11_note_taker_v2.28adcf4c2180c2856460.png",
     "static/media/network-color.png": "/scalla-portfolio/static/media/network-color.7843e6b9b05f8fceb09c.png",
+    "static/media/mongodb.png": "/scalla-portfolio/static/media/mongodb.b8c08730d530013deb5b.png",
+    "static/media/redux.png": "/scalla-portfolio/static/media/redux.8ac27bb6b9eeb097e2f5.png",
+    "static/media/graphql.png": "/scalla-portfolio/static/media/graphql.c381cd8d8b9ecd922bd0.png",
+    "static/media/nodeJS.png": "/scalla-portfolio/static/media/nodeJS.b235615dd3114bee871d.png",
+    "static/media/React.png": "/scalla-portfolio/static/media/React.5929148ed809850d82fb.png",
     "index.html": "/scalla-portfolio/index.html",
     "static/media/menu.svg": "/scalla-portfolio/static/media/menu.444410f528b0342b8c1a8785a9aa9dc6.svg",
-    "main.c0aecbb3.css.map": "/scalla-portfolio/static/css/main.c0aecbb3.css.map",
-    "main.2177c707.js.map": "/scalla-portfolio/static/js/main.2177c707.js.map",
+    "main.4c5008f1.css.map": "/scalla-portfolio/static/css/main.4c5008f1.css.map",
+    "main.da774b53.js.map": "/scalla-portfolio/static/js/main.da774b53.js.map",
     "787.96f1a339.chunk.js.map": "/scalla-portfolio/static/js/787.96f1a339.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0aecbb3.css",
-    "static/js/main.2177c707.js"
+    "static/css/main.4c5008f1.css",
+    "static/js/main.da774b53.js"
   ]
 }
