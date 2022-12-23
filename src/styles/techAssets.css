@@ -1,26 +1,30 @@
 .tech-icon {
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   margin-right: 5px;
   border: 0.25px solid lightgray;
   border-radius: 50%;
 }
 
-.link-card {
-  /* height: 40px;
+.tech-icon:hover {
+  height: 40px;
   width: 40px;
-  margin-right: 5px;
-  border: 0.25px solid lightgray;
-  border-radius: 50%; */
+}
 
+.fa-link:hover {
+  height: 22px;
+  width: 22px;
+}
+
+.link-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  align-content: center;
-  color: "white";
   height: 60px;
   width: 75px;
-  background-color: black;
-  /* border: 1px solid black; */
+  color: white;
+  background-color: lightblue;
+  border-radius: 5px;
+  text-decoration: none;
 }

@@ -17,8 +17,8 @@ function Project({
   text,
   techIcons,
 }) {
-  const githubIcon = <FontAwesomeIcon inverse icon={faGithub} />;
-  const linkIcon = <FontAwesomeIcon icon={faLink} transform="grow-20" />;
+  const githubIcon = <FontAwesomeIcon inverse icon={faGithub} style={{ marginTop: "5px" }}/>;
+  const linkIcon = <FontAwesomeIcon inverse icon={faLink} transform="grow-15"/>;
 
   //creates transition effect for project to fly in from left
   const project = useRef();
@@ -66,17 +66,14 @@ function Project({
 
           <h5>Technologies:</h5>
           {techIcons?.map(({ icon, alt }, index) => (
-            <img key={index} 
-            className="tech-icon" 
-            src={icon} 
-            alt={alt}></img>
+            <img key={index} className="tech-icon" src={icon} alt={alt}></img>
           ))}
-          
 
-          <div className="d-flex m-2">
+          <div className="d-flex mt-2">
 
             <Card.Link
               className="link-card"
+              style={{ backgroundColor: "#27A744" }}
               href={githubURL}
               target="_blank"
               rel="noreferrer"
@@ -86,29 +83,20 @@ function Project({
               GitHub
             </Card.Link>
 
-            <div
-              className="d-flex justify-content-center align-items-center card-link"
-              // style={{
-              //   height: "35px",
-              //   width: "35px",
-              // }}
+            <Card.Link
+              className="link-card"
+              style={{ backgroundColor: "#16A3B8" }}
+              href={websiteURL}
+              target="_blank"
+              rel="noreferrer"
+              title="Website Link"
             >
-              <Card.Link
-                className="card-link"
-                // style={{
-                //   marginLeft: "8px",
-                //   textDecoration: "none",
-                //   color: "black",
-                // }}
-                href={websiteURL}
-                target="_blank"
-                rel="noreferrer"
-                title="Website Link"
-              >
-                {linkIcon}
-                Demo
-              </Card.Link>
-            </div>
+              <div style={{ marginTop: "6px", marginBottom: "5px", paddingTop: "5px" }}>
+              {linkIcon}
+              </div>
+              <span>Demo</span>
+            </Card.Link>
+
           </div>
         </Card.Body>
       </Card>
