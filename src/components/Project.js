@@ -66,7 +66,13 @@ function Project({
 
           <h5>Technologies:</h5>
           {techIcons?.map(({ icon, alt }, index) => (
-            <img key={index} className="tech-icon" src={icon} alt={alt}></img>
+            <img 
+              key={index} 
+              className="tech-icon" 
+              src={icon} 
+              alt={alt}
+              title={alt}
+            ></img>
           ))}
 
           <div className="d-flex mt-2">
