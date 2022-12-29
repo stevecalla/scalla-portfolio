@@ -379,7 +379,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techIcons: [{icon: express, alt: "express"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}]
+    techIcons: [{icon: express, alt: "Express"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "NodeJS"}]
   },
   {
     id: "14",
@@ -420,7 +420,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "CSS"}, {icon: express, alt: "express"}, {icon: html, alt: "HTML"}, {icon: jq, alt: "jQuery"}, {icon: js, alt: "JavaScript"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
+    techIcons: [{icon: bs, alt: "Bootstrap"}, {icon: css, alt: "CSS"}, {icon: express, alt: "Express"}, {icon: html, alt: "HTML"}, {icon: jq, alt: "jQuery"}, {icon: js, alt: "JavaScript"}, {icon: sql, alt: "SQL"}, {icon: node, alt: "NodeJS"}, {icon: react, alt: "React"}]
   },
   {
     id: "17",
@@ -462,7 +462,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techIcons: [{icon: express, alt: "express"}, {icon: html, alt: "HTML"}, {icon: jq, alt: "jQuery"}, {icon: js, alt: "JavaScript"}, {icon: mongo, alt: "mongoDB"}, {icon: node, alt: "nodeJS"}]
+    techIcons: [{icon: express, alt: "Express"}, {icon: html, alt: "HTML"}, {icon: jq, alt: "jQuery"}, {icon: js, alt: "JavaScript"}, {icon: mongo, alt: "MongoDB"}, {icon: node, alt: "NodeJS"}]
   },
   {
     id: "19",
@@ -483,7 +483,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "CSS"}, {icon: express, alt: "express"}, {icon: html, alt: "HTML"}, {icon: jq, alt: "jQuery"}, {icon: js, alt: "JavaScript"}, {icon: mongo, alt: "mongoDB"}, {icon: node, alt: "nodeJS"}, {icon: pwa, alt: "Progressive Web App"}, {icon: graphql, alt: "Apollo Graphql"}]
+    techIcons: [{icon: bs, alt: "Bootstrap"}, {icon: css, alt: "CSS"}, {icon: express, alt: "Express"}, {icon: html, alt: "HTML"}, {icon: jq, alt: "jQuery"}, {icon: js, alt: "JavaScript"}, {icon: mongo, alt: "MongoDB"}, {icon: node, alt: "NodeJS"}, {icon: pwa, alt: "Progressive Web App"}, {icon: graphql, alt: "Apollo Graphql"}]
   },
   {
     id: "20",
@@ -504,7 +504,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "CSS"}, {icon: html, alt: "HTML"}, {icon: js, alt: "JavaScript"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}]
+    techIcons: [{icon: bs, alt: "Bootstrap"}, {icon: css, alt: "CSS"}, {icon: html, alt: "HTML"}, {icon: js, alt: "JavaScript"}, {icon: node, alt: "NodeJS"}, {icon: react, alt: "React"}]
   },
   {
     id: "21",
@@ -525,7 +525,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "CSS"}, {icon: express, alt: "express"}, {icon: html, alt: "HTML"}, {icon: jq, alt: "jQuery"}, {icon: js, alt: "JavaScript"}, {icon: mongo, alt: "mongoDB"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}, {icon: pwa, alt: "Progressive Web App"}, {icon: graphql, alt: "Apollo Graphql"}]
+    techIcons: [{icon: bs, alt: "Bootstrap"}, {icon: css, alt: "CSS"}, {icon: express, alt: "Express"}, {icon: html, alt: "HTML"}, {icon: jq, alt: "jQuery"}, {icon: js, alt: "JavaScript"}, {icon: mongo, alt: "MongoDB"}, {icon: node, alt: "NodeJS"}, {icon: react, alt: "React"}, {icon: pwa, alt: "Progressive Web App"}, {icon: graphql, alt: "Apollo Graphql"}]
   },
   {
     id: "22",
@@ -546,7 +546,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "CSS"}, {icon: express, alt: "express"}, {icon: html, alt: "HTML"}, {icon: js, alt: "JavaScript"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}, {icon: redux, alt: "Redux"}]
+    techIcons: [{icon: bs, alt: "Bootstrap"}, {icon: css, alt: "CSS"}, {icon: express, alt: "Express"}, {icon: html, alt: "HTML"}, {icon: js, alt: "JavaScript"}, {icon: node, alt: "NodeJS"}, {icon: react, alt: "React"}, {icon: redux, alt: "Redux"}]
   },
   {
     id: "23",
@@ -568,7 +568,7 @@ const projects = [
     imgTitle_3: "",
     cardText: "",
     
-    techIcons: [{icon: bs, alt: "bootstrap"}, {icon: css, alt: "CSS"}, {icon: express, alt: "express"}, {icon: html, alt: "HTML"}, {icon: jq, alt: "jQuery"}, {icon: js, alt: "JavaScript"}, {icon: mongo, alt: "mongoDB"}, {icon: node, alt: "nodeJS"}, {icon: react, alt: "React"}, {icon: pwa, alt: "Progressive Web App"}, {icon: graphql, alt: "Apollo Graphql"}]
+    techIcons: [{icon: bs, alt: "Bootstrap"}, {icon: css, alt: "CSS"}, {icon: express, alt: "Express"}, {icon: html, alt: "HTML"}, {icon: jq, alt: "jQuery"}, {icon: js, alt: "JavaScript"}, {icon: mongo, alt: "MongoDB"}, {icon: node, alt: "NodeJS"}, {icon: react, alt: "React"}, {icon: pwa, alt: "Progressive Web App"}, {icon: graphql, alt: "Apollo Graphql"}]
   },
   {
     id: "24",
@@ -607,7 +607,7 @@ const projects = [
     imgAlt_3: "",
     imgTitle_3: "",
     cardText: "",
-    techIcons: [{icon: css, alt: "CSS"}, {icon: html, alt: "HTML"}, {icon: js, alt: "JavaScript"}, {icon: node, alt: "nodeJS"}]
+    techIcons: [{icon: css, alt: "CSS"}, {icon: html, alt: "HTML"}, {icon: js, alt: "JavaScript"}, {icon: node, alt: "NodeJS"}]
   },
 ];
 
