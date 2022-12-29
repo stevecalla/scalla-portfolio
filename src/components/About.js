@@ -12,16 +12,13 @@ function About() {
       </div>
       <hr></hr>
       <p className="lead custom-text">
-        What can I say? I live in Boulder, Colorado. I studied
-        full-stack coding at Denver Unversity graduating in December
-        2022 with 100% or better on every individual and group project. I have an extensive career in marketing, and have held individual contributor and leadership roles at Vail Resorts, Hertz Rent-a-Car and Silvercar-by-Audi.
+        What can I say? I live in Boulder, Colorado. I studied full-stack coding at Denver Unversity graduating in December 2022 with 100% or better on every individual and group project. I have an extensive career in marketing, and have held individual contributor and leadership roles at Vail Resorts, Hertz Rent-a-Car and Silvercar-by-Audi.
       </p>
       <p className="lead custom-text">
-        I am super curious to learn the coding trade and incorporate that into
-        my marketing career in some fashion. I'm particularly fascinated by how
-        much fun it is to solve coding puzzles (across the universe of HTML, CSS
-        and Javascript) and to make the user experience pleasing and
-        accessible.
+        I enjoy using coding to solve practical business challenges in marketing and beyond. For example, I recently created an email/text message server using SendGrid and Twilio, built the initial phase of an app to help a commercial cleaning business manage its job schedule, I'm currently working on an app for a furniture installation business and I recently built my first full-stack Java app.
+      </p>
+      <p className="lead custom-text">
+        I look forward to expanding my front-end and full-stack still set as well as finding more ways to combine my new coding skills with my experience in marketing.
       </p>
     </main>
   );
