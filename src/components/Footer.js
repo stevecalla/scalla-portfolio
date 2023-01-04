@@ -22,7 +22,7 @@ function Footer() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  const resumeLink = "https://drive.google.com/file/d/1EKvLxH5QvoeXzssTZMti8MKHHJmBXVx-/view?usp=sharing";
+  const resumeLink = "https://drive.google.com/file/d/1L9tEIM2nQIayxal-A71wrI6djokcyXOP/view?usp=sharing";
   const linkedInLink = "https://www.linkedin.com/in/steve-calla/";
   const portfolioLink = "https://stevecalla.github.io/scalla-portfolio/";
   const gitHubLink = "https://github.com/stevecalla/";
